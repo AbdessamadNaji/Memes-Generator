@@ -1,12 +1,5 @@
 import {useState,useEffect} from "react";
 export default function Main(){
-    /**
-     * Challenge: Get a random image from the array of
-     * allMemes when the user clicks the button. Once
-     * you've gotten a random image from the array, make
-     * sure to write the code that will display that
-     * random meme image to the page.
-     */
     const  [meme , setMeme ] = useState({
         bottomText: "Walk into Mordor",
         topText: "One does not simply",
